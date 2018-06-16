@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@id/title_fragment_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y235"
+        android:background="@color/blue_add"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y234"
+            android:orientation="horizontal">
+
+            <com.fanwang.demo_doctor_community.custom.XCRoundImageView
+                android:layout_width="@dimen/y140"
+                android:layout_height="@dimen/y140"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/x40"
+                android:src="@drawable/aa" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/x40"
+                    android:gravity="center"
+                    android:text="吴恩达"
+                    android:textColor="@color/white"
+                    android:textSize="15.3sp" />
+
+                <TextView
+                    android:id="@+id/tv_ren"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/x40"
+                    android:gravity="center"
+                    android:text="普通用户"
+                    android:textColor="@color/userblack"
+                    android:textSize="10.5sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/but_upgrade"
+            android:layout_width="@dimen/x105"
+            android:layout_height="@dimen/y49"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="@dimen/x20"
+            android:background="@drawable/yuan_yellow"
+            android:text="升级"
+            android:textColor="@color/white"
+            android:textSize="10.5sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray_add_a"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x28"
+            android:layout_marginTop="@dimen/x26">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/aa_44" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="当前权益" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x28"
+            android:layout_marginTop="@dimen/y20">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="普通用户，暂时没有任何高级权益，升级会员，可享受多重优惠！"
+                android:textSize="10.5sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="@dimen/y10"
+            android:background="@color/white" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rcy_member_center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/y10" />
+
+    </LinearLayout>
+
+</LinearLayout>

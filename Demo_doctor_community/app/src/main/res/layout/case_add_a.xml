@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_add_a"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@id/title_fragment_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/x24"
+                android:layout_marginRight="@dimen/x22"
+                android:layout_marginTop="@dimen/y29"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="病症简述(20字以内)"
+                    android:textColor="@color/userblack"
+                    android:textSize="13.5sp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/y142"
+                    android:layout_marginTop="@dimen/y14"
+                    android:background="@drawable/yuan_white"
+                    android:gravity="top"
+                    android:hint="@string/sketch"
+                    android:textSize="10.5sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/y80"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="@dimen/x115"
+                        android:layout_height="wrap_content"
+                        android:text="就诊医院"
+                        android:textColor="@color/userblack" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/y40"
+                        android:layout_marginLeft="@dimen/x30"
+                        android:background="@drawable/yuan_white" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/y25"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="@dimen/x115"
+                        android:layout_height="wrap_content"
+                        android:text="科室选择"
+                        android:textColor="@color/userblack" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/y40"
+                        android:layout_marginLeft="@dimen/x30"
+                        android:background="@drawable/yuan_white" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/y25"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="@dimen/x115"
+                        android:layout_height="wrap_content"
+                        android:text="医生"
+                        android:textColor="@color/userblack" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/y40"
+                        android:layout_marginLeft="@dimen/x30"
+                        android:background="@drawable/yuan_white" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/y66"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="就诊时间"
+                        android:textColor="@color/userblack" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/y40"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginLeft="@dimen/x30"
+                        android:background="@drawable/xzbl_05" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/y49"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="上传病历图片"
+                        android:textColor="@color/userblack"
+                        android:textSize="13.5sp" />
+
+                    <LinearLayout
+                        android:id="@+id/linear_Img"
+                        android:layout_width="@dimen/x140"
+                        android:layout_height="@dimen/y120"
+                        android:layout_marginLeft="@dimen/y42"
+                        android:layout_marginTop="@dimen/y44"
+                        android:background="@color/white"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/aa_37" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/y300"
+                        android:layout_marginTop="@dimen/y28"
+                        android:background="@mipmap/ic_launcher"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/y44"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/but_baocun"
+                android:layout_width="@dimen/x245"
+                android:layout_height="@dimen/y64"
+                android:background="@drawable/yuan_blue_a"
+                android:text="@string/save"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/but_quxiao"
+                android:layout_width="@dimen/x245"
+                android:layout_height="@dimen/y64"
+                android:layout_marginLeft="@dimen/x24"
+                android:background="@drawable/yuan_gray_a"
+                android:text="@string/cancel"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

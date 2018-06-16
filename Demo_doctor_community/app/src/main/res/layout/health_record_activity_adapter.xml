@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="详情服务"
+            android:layout_width="@dimen/x114"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_name_a"
+            android:text="超越"
+            android:textSize="14sp"
+            android:textColor="@color/userblack"
+            android:layout_marginLeft="@dimen/x22"
+            android:layout_width="@dimen/x114"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</LinearLayout>

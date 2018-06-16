@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y80"
+        android:layout_gravity="center"
+        android:background="#23b1a5"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="服务"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/lin_lay_search"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y220"
+        android:layout_below="@+id/rl_top"
+        android:background="@drawable/fw_13"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y95">
+
+        <LinearLayout
+            android:layout_width="@dimen/x470"
+            android:layout_height="match_parent">
+
+            <com.fanwang.demo_doctor_community.custom.SearchView
+                android:id="@+id/searchview"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_doctor"
+            android:layout_marginLeft="@dimen/x4"
+            android:background="@drawable/fw_10"
+            android:layout_marginTop="@dimen/y4"
+            android:layout_width="@dimen/x150"
+            android:layout_height="54dp">
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@+id/lin_xiala"
+                android:text="科室"
+                android:textSize="12.5sp" />
+
+            <LinearLayout
+                android:id="@+id/lin_xiala"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/fw_11"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/triangle" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/lin_lay_search"
+        android:background="@color/gray_add_a"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/rg"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/y600"
+            android:background="@color/white">
+
+            <RadioButton
+                android:id="@+id/rb_one"
+                style="@style/slide_radio"
+                android:text="上门服务" />
+
+            <View
+                android:layout_width="@dimen/x200"
+                android:layout_height="1dp"
+                android:background="@color/huise_add_a" />
+
+            <RadioButton
+                android:id="@+id/rb_two"
+                style="@style/slide_radio"
+                android:text="门诊服务" />
+
+            <View
+                android:layout_width="@dimen/x200"
+                android:layout_height="1dp"
+                android:background="@color/huise_add_a" />
+
+            <RadioButton
+                android:id="@+id/rb_three"
+                style="@style/slide_radio"
+                android:text="服务包" />
+
+            <View
+                android:layout_width="@dimen/x200"
+                android:layout_height="1dp"
+                android:background="@color/huise_add_a" />
+
+        </RadioGroup>
+
+        <FrameLayout
+            android:id="@+id/fl_right"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/gray_add_a" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/y20"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/yuan_blue"
+            android:gravity="center"
+            android:text="联系社区"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

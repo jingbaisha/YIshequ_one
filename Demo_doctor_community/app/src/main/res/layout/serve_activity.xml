@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_add_a"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/title_fragment_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <RelativeLayout
+        android:id="@+id/lin_lay_search"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y220"
+        android:layout_below="@+id/rl_top"
+        android:background="@drawable/fw_13"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y95"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="@dimen/x470"
+                android:layout_height="match_parent">
+
+                <com.fanwang.demo_doctor_community.custom.SearchView
+                    android:id="@+id/searchview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_doctor"
+                android:layout_width="@dimen/x140"
+                android:layout_height="@dimen/y94"
+                android:layout_marginLeft="@dimen/x4"
+                android:layout_marginTop="@dimen/y4"
+                android:background="@drawable/fw_10">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_toLeftOf="@+id/lin_xiala"
+                    android:gravity="center"
+                    android:text="医生"
+                    android:textSize="10.5sp" />
+
+                <LinearLayout
+                    android:id="@+id/lin_xiala"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/fw_11"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/triangle" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y60"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <!--第一部分-->
+        <LinearLayout
+            android:id="@+id/lin_liandong"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/x23">
+
+            <TextView
+                android:id="@+id/tv_ssq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="省份-城市-区/县"
+                android:textSize="14.5sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/x10">
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/x10"
+                    android:background="@drawable/triangle" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <!--社区-->
+        <LinearLayout
+            android:id="@+id/lin_shequ"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/x40">
+
+            <TextView
+                android:id="@+id/tv_sq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="社区"
+                android:textSize="14.5sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/x10"
+                    android:layout_marginTop="@dimen/x10"
+                    android:background="@drawable/triangle" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--选择省市区-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y65">
+
+        <Button
+            android:id="@+id/tv_servre_moren"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tv_serve"
+            android:gravity="center"
+            android:text="默认"
+            android:textColor="@drawable/tv_color_serve"
+            android:textSize="10.5sp" />
+
+        <Button
+            android:id="@+id/tv_servre_xiaoliang"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tv_serve"
+            android:gravity="center"
+            android:text="销量"
+            android:textColor="@drawable/tv_color_serve"
+            android:textSize="10.5sp" />
+
+        <Button
+            android:id="@+id/tv_servre_pingjia"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tv_serve"
+            android:gravity="center"
+            android:text="评价"
+            android:textColor="@drawable/tv_color_serve"
+            android:textSize="10.5sp" />
+
+        <Button
+            android:id="@+id/tv_servre_fujin"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tv_serve"
+            android:gravity="center"
+            android:text="附近"
+            android:textColor="@drawable/tv_color_serve"
+            android:textSize="10.5sp" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rcv_serve"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

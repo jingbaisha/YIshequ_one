@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/y158">
+
+    <LinearLayout
+        android:layout_width="@dimen/x172"
+        android:layout_height="@dimen/y114"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/x23"
+        android:layout_margin="@dimen/x4">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/ic_launcher" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_marginLeft="@dimen/x17"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="Clinical Respiratory Journal 主编，Chinese Medical Journal主编。中华医学杂志、中华结核和呼吸杂志副主编等"
+            android:textSize="12.5sp"
+            android:layout_marginTop="@dimen/x35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_data"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="2018-02-03"
+            android:layout_marginRight="@dimen/x25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y16"/>
+</LinearLayout>

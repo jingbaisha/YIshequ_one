@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:landptf="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_add_a">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@id/title_fragment_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/lin_img_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x80"
+                android:layout_marginRight="@dimen/x80"
+                android:layout_marginTop="@dimen/y200"
+                android:background="@drawable/line_02"
+                android:orientation="vertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/y180">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <com.fanwang.demo_doctor_community.custom.ButtonM
+                        android:id="@+id/bt_a"
+                        android:layout_width="@dimen/x116"
+                        android:layout_height="@dimen/y116"
+                        android:gravity="center"
+                        android:text="父亲"
+                        android:textSize="10sp"
+                        landptf:backColor="@color/white"
+                        landptf:fillet="true"
+                        landptf:shape="oval"
+                        landptf:textColor="@color/userblack"
+                        landptf:textColorPress="#696969" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <com.fanwang.demo_doctor_community.custom.ButtonM
+                        android:id="@+id/bt_b"
+                        android:layout_width="@dimen/x116"
+                        android:layout_height="@dimen/y116"
+                        android:gravity="center"
+                        android:text="母亲"
+                        android:textSize="10sp"
+                        landptf:backColor="@color/white"
+                        landptf:fillet="true"
+                        landptf:shape="oval"
+                        landptf:textColor="@color/userblack"
+                        landptf:textColorPress="#696969" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <com.fanwang.demo_doctor_community.custom.ButtonM
+                        android:id="@+id/bt_c"
+                        android:layout_width="@dimen/x116"
+                        android:layout_height="@dimen/y116"
+                        android:gravity="center"
+                        android:text="点击编辑"
+                        android:textSize="10sp"
+                        landptf:backColor="@color/white"
+                        landptf:fillet="true"
+                        landptf:shape="oval"
+                        landptf:textColor="@color/userblack"
+                        landptf:textColorPress="#696969" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <com.fanwang.demo_doctor_community.custom.ButtonM
+                        android:id="@+id/bt_d"
+                        android:layout_width="@dimen/x116"
+                        android:layout_height="@dimen/y116"
+                        android:gravity="center"
+                        android:text="点击编辑"
+                        android:textSize="10sp"
+                        landptf:backColor="@color/white"
+                        landptf:fillet="true"
+                        landptf:shape="oval"
+                        landptf:textColor="@color/userblack"
+                        landptf:textColorPress="#696969" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x80"
+                android:layout_marginRight="@dimen/x80"
+                android:layout_marginTop="@dimen/y360"
+                android:background="@drawable/line_01" />
+
+            <com.fanwang.demo_doctor_community.custom.ButtonM
+                android:id="@+id/but_e"
+                android:layout_width="@dimen/x116"
+                android:layout_height="@dimen/y116"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/y343"
+                android:gravity="center"
+                android:text="父亲"
+                android:textSize="10sp"
+                landptf:backColor="@color/white"
+                landptf:fillet="true"
+                landptf:shape="oval"
+                landptf:textColor="@color/userblack"
+                landptf:textColorPress="#696969" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/y500">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <com.fanwang.demo_doctor_community.custom.ButtonM
+                        android:id="@+id/but_aa"
+                        android:layout_width="@dimen/x116"
+                        android:layout_height="@dimen/y116"
+                        android:gravity="center"
+                        android:text="父亲"
+                        android:textSize="10sp"
+                        landptf:backColor="@color/white"
+                        landptf:fillet="true"
+                        landptf:shape="oval"
+                        landptf:textColor="@color/userblack"
+                        landptf:textColorPress="#696969" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <com.fanwang.demo_doctor_community.custom.ButtonM
+                        android:id="@+id/but_bb"
+                        android:layout_width="@dimen/x116"
+                        android:layout_height="@dimen/y116"
+                        android:gravity="center"
+                        android:text="母亲"
+                        android:textSize="10sp"
+                        landptf:backColor="@color/white"
+                        landptf:fillet="true"
+                        landptf:shape="oval"
+                        landptf:textColor="@color/userblack"
+                        landptf:textColorPress="#696969" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <com.fanwang.demo_doctor_community.custom.ButtonM
+                        android:id="@+id/but_cc"
+                        android:layout_width="@dimen/x116"
+                        android:layout_height="@dimen/y116"
+                        android:gravity="center"
+                        android:text="点击编辑"
+                        android:textSize="10sp"
+                        landptf:backColor="@color/white"
+                        landptf:fillet="true"
+                        landptf:shape="oval"
+                        landptf:textColor="@color/userblack"
+                        landptf:textColorPress="#696969" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <com.fanwang.demo_doctor_community.custom.ButtonM
+                        android:id="@+id/but_dd"
+                        android:layout_width="@dimen/x116"
+                        android:layout_height="@dimen/y116"
+                        android:gravity="center"
+                        android:text="点击编辑"
+                        android:textSize="10sp"
+                        landptf:backColor="@color/white"
+                        landptf:fillet="true"
+                        landptf:shape="oval"
+                        landptf:textColor="@color/userblack"
+                        landptf:textColorPress="#696969" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x47"
+            android:layout_marginTop="@dimen/y104"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="备注:"
+                android:textColor="#e7475e"
+                android:textSize="10.5sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.家庭成员，加上用户本人，总共9人，无法新增；"
+                android:textColor="#e7475e"
+                android:textSize="10.5sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/yuan_blue"
+        android:text="确认选择"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+</RelativeLayout>

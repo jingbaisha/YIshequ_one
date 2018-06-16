@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/gray_add_a"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/title_fragment_content"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:id="@+id/school_liuyan"
+        android:gravity="center"
+        android:background="@color/white"
+        android:layout_marginTop="@dimen/x20"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y123">
+
+        <LinearLayout
+            android:id="@+id/my_indent"
+            android:layout_marginLeft="@dimen/x24"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:background="@drawable/xyjk_01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="给学校留言"
+                android:gravity="center"
+                android:textSize="13.5sp"
+                android:layout_marginLeft="@dimen/x27"
+                android:textColor="@color/userblack"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_marginRight="@dimen/x23"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/wd_05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_below="@+id/my_indent"
+        android:background="@color/gray_add_a"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y2"/>
+
+    <RelativeLayout
+        android:gravity="center"
+        android:id="@+id/rl_fabu_xinxi"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y123">
+
+        <LinearLayout
+            android:id="@+id/health_education"
+            android:layout_marginLeft="@dimen/x24"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:background="@drawable/xyjk_02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="发布健康信息"
+                android:gravity="center"
+                android:textSize="13.5sp"
+                android:layout_marginLeft="@dimen/x27"
+                android:textColor="@color/userblack"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_marginRight="@dimen/x23"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/wd_05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_below="@+id/my_indent"
+        android:background="@color/gray_add_a"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y2"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_jiangkang"
+        android:gravity="center"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y123">
+
+        <LinearLayout
+            android:layout_marginLeft="@dimen/x24"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:background="@drawable/xyjk_03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="健康反馈"
+                android:gravity="center"
+                android:textSize="13.5sp"
+                android:layout_marginLeft="@dimen/x27"
+                android:textColor="@color/userblack"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_marginRight="@dimen/x23"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/wd_05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+</LinearLayout>

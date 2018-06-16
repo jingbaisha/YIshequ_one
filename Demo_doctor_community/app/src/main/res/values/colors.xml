@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="help_button_view">#ffcccccc</color>
+    <color name="help_view">#ff404040</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="result_image_border">#ffffffff</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c000ff00</color>
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="sbc_header_text">#ff808080</color>
+    <color name="sbc_header_view">#ffffffff</color>
+    <color name="sbc_list_item">#fffff0e0</color>
+    <color name="sbc_layout_view">#ffffffff</color>
+    <color name="sbc_page_number_text">#ff000000</color>
+    <color name="sbc_snippet_text">#ff4b4b4b</color>
+    <color name="share_text">#ff000000</color>
+    <color name="share_view">#ffffffff</color>
+    <color name="status_view">#50000000</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="color4">#333333</color>
+    <color name="white_drak">#D0EFFA</color>
+    <color name="black_add">#040404</color>
+    <color name="black_add_a">#4c4c4c</color>
+    <color name="blue_add">#23b1a5</color>
+    <color name="black_add_b">#000000</color>
+    <color name="blue_add_a">#1EB2A6</color>
+    <color name="gray_add">#555555</color>
+    <color name="gray_add_a">#C9E5E3</color>
+    <color name="huise_add">#40000000</color>
+    <color name="huise_add_a">#c3c3c3</color>
+    <color name="huise_add_b">#d9d9d9</color>
+    <color name="add_red_a">#e7475e</color>
+    <color name="add_blus_a">#00587a</color>
+    <color name="add_huise_a">#f3f3f3</color>
+
+
+    <!-- 用于写view -->
+    <color name="userview">#e1e1e1</color>
+    <color name="gray80">#80e1e1e1</color>
+    <!-- 全透明 -->
+    <color name="transparent">#00000000</color>
+    <!-- 全透明 -->
+    <color name="transparent50">#50000000</color>
+    <!-- 全透明 -->
+    <color name="transparent10">#10000000</color>
+    <!-- 全透明 -->
+    <color name="transparent90">#90000000</color>
+    <!-- 黑色50%的透明度 -->
+    <color name="blackLight50">#50000000</color>
+    <!-- 黑色50%的透明度 -->
+    <color name="blackLight30">#30000000</color>
+    <!-- 黑色80%的透明度 -->
+    <color name="blackLight80">#80000000</color>
+    <!-- 黑色90%的透明度 -->
+    <color name="blackLight90">#90000000</color>
+    <!-- 黑色10%的透明度 -->
+    <color name="blackLight10">#10000000</color>
+    <!-- 小黄色 -->
+    <color name="yellowlight">#fffdf1</color>
+    <!-- 黑色 -->
+    <color name="black">#2D2C2C</color>
+    <!-- 白色 -->
+    <color name="white">#FFFFFF</color>
+    <!-- 蓝色 -->
+    <color name="blue">#ff2069ff</color>
+    <!-- 浅蓝色 -->
+    <color name="bluelight">#64d7f8</color>
+    <!-- 大红色 -->
+    <color name="redbig">#ffdc2827</color>
+    <!-- 小红色 -->
+    <color name="redlight">#ffff5460</color>
+    <!-- 浅灰色 -->
+    <color name="lightgray">#fff3f3f3</color>
+    <!-- 头部灰色 -->
+    <color name="titletgray">#fff8f8f8</color>
+    <!-- 灰色 -->
+    <color name="gray">#ffdadada</color>
+    <!-- 橙色 -->
+    <color name="orange">#ffef9a4f</color>
+    <!-- 绿色 -->
+    <color name="green">#A6F857</color>
+    <color name="title">#f8f8f8</color>
+    <!-- title背景色 -->
+    <color name="titleBg">#FFFFFF</color>
+    <!-- 文字浅灰色颜色 -->
+    <color name="textgray">#c4c3c3</color>
+    <color name="textblue">#56B2FF</color>
+    <!-- <color name="textblue">#3385FF</color> -->
+    <color name="textyellow">#e6b400</color>
+    <color name="color_red_ccfa3c55">#ccfa3c55</color>
+    <!-- 文字黑色 -->
+    <color name="textblack">#666666</color>
+    <!-- 文字黑色 -->
+    <color name="textblack9">#999999</color>
+    <!-- 首页文字灰 -->
+    <color name="homeGrayText">#7C7C7C</color>
+    <!-- 首页背景灰 -->
+    <color name="homeGrayBg">#E3E3E3</color>
+    <!-- 红色 -->
+    <color name="red">#f7404e</color>
+    <color name="zise">#fa4b9b</color>
+    <color name="heise">#222222</color>
+    <color name="userblack">#333333</color>
+    
+
+</resources>

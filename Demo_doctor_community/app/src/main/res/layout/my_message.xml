@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    android:background="@color/gray_add_a"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_marginLeft="@dimen/x20"
+        android:layout_marginRight="@dimen/x20"
+        android:layout_width="match_parent"
+        android:text="中研皮肤病专科门诊部是按照三级医院标准设立的皮肤病专科医院，医院位于繁华大都市广州，拥有一 支高素质的专业技术队伍，拥有何燕、王领文、王香兰、曹美珍等数名各类型皮肤病治疗医师。
+中研皮肤病专科门诊部注重传统医学与高、精、尖现代医疗设备的相融合，充分应用特色疗法，是皮肤病治疗上的又一重大突破，是祖国传统医学与现代高科技的结晶，为众多久治不愈的皮肤病患者带来了希望。"
+        android:layout_height="match_parent" />
+</android.support.constraint.ConstraintLayout>

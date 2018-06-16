@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/gray_add_a"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@id/title_fragment_content"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_below="@+id/title_fragment_content"
+        android:background="@drawable/yuan_white"
+        android:layout_marginTop="@dimen/y62"
+        android:layout_marginRight="@dimen/x22"
+        android:layout_marginLeft="@dimen/x22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/y83"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="详情服务"
+                android:layout_marginLeft="@dimen/x47"
+                android:layout_width="@dimen/x114"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="详情服务"
+                android:textColor="@color/userblack"
+                android:layout_marginLeft="@dimen/x22"
+                android:layout_width="@dimen/x114"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/y36"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="详情服务"
+                android:layout_marginLeft="@dimen/x47"
+                android:layout_width="@dimen/x114"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="详情服务"
+                android:textColor="@color/userblack"
+                android:layout_marginLeft="@dimen/x22"
+                android:layout_width="@dimen/x114"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/y36"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="详情服务"
+                android:layout_marginLeft="@dimen/x47"
+                android:layout_width="@dimen/x114"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="详情服务"
+                android:textColor="@color/userblack"
+                android:layout_marginLeft="@dimen/x22"
+                android:layout_width="@dimen/x114"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginBottom="@dimen/y32"
+            android:layout_marginTop="@dimen/y36"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="详情服务"
+                android:layout_marginLeft="@dimen/x47"
+                android:layout_width="@dimen/x114"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="详情服务"
+                android:textColor="@color/userblack"
+                android:layout_marginLeft="@dimen/x22"
+                android:layout_width="@dimen/x114"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:text="门诊服务"
+        android:id="@+id/but_img"
+        android:textColor="@color/white"
+        android:layout_below="@+id/title_fragment_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/x27"
+        android:background="@drawable/yuan_blue"
+        android:layout_width="@dimen/x289"
+        android:layout_height="@dimen/y68" />
+
+    <com.fanwang.demo_doctor_community.custom.XCRoundImageView
+        android:src="@drawable/aa"
+        android:layout_marginTop="@dimen/x44"
+        android:layout_below="@+id/but_img"
+        android:layout_marginRight="@dimen/x74"
+        android:layout_alignParentRight="true"
+        android:layout_width="@dimen/x156"
+        android:layout_height="@dimen/y156" />
+
+</RelativeLayout>

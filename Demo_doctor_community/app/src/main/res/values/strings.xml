@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Demo_doctor_community</string>
+    <string name="account_hint">请输入账号</string>
+    <string name="login_btn">登录</string>
+    <string name="zhuce">注册</string>
+    <string name="regist_password_1">请输入密码</string>
+    <string name="regist_password_a">请输入6-12位的密码</string>
+    <string name="querenmima">确认密码</string>
+    <string name="yanzhengma">获取验证码</string>
+    <string name="jibenxinxi">基本信息</string>
+    <string name="mymessage">个人简历</string>
+    <string name="payment">支付</string>
+    <string name="signed">签约</string>
+    <string name="sketch">请输入病症简述</string>
+    <string name="see_a_doctor">请输入病症简述</string>
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    <string name="submit">提交</string>
+</resources>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_add_a"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@id/title_fragment_content"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_marginLeft="@dimen/y20"
+        android:layout_marginTop="@dimen/x20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="服务中"
+            android:textSize="15.3sp"
+            android:textColor="@color/userblack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+        <View
+            android:background="@color/white"
+            android:layout_marginTop="@dimen/y23"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+          android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:background="@drawable/aa"
+                android:layout_width="@dimen/x125"
+                android:layout_height="@dimen/y118" />
+                <LinearLayout
+                    android:layout_marginLeft="@dimen/x32"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="孕妇服务包"
+                            android:textSize="13.5sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="服务包价格:800元"
+                            android:textSize="10.5sp"
+                            android:layout_alignParentRight="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </RelativeLayout>
+                    <TextView
+                        android:text="广州市妇幼院"
+                        android:textSize="10sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/y6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="截止时间:"
+                            android:textSize="10.5sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textColor="@color/red"
+                            android:textSize="10.5sp"
+                            android:text="2018-03-013"
+                            android:layout_marginLeft="@dimen/x28"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+        </LinearLayout>
+    <RelativeLayout
+        android:layout_marginLeft="@dimen/x20"
+        android:layout_marginRight="@dimen/y20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="服务项目"
+            android:textSize="10.5sp"
+            android:textColor="@color/textblack9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="所有预约"
+                android:textSize="10.5sp"
+                android:textColor="@color/textblack9"
+                android:layout_width="wrap_content"
+                android:layout_marginRight="@dimen/x10"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:background="@drawable/wd_05"
+                android:layout_gravity="center"
+                android:layout_width="6dp"
+                android:layout_height="6dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    </LinearLayout>
+    <View
+        android:background="@color/white"
+        android:layout_marginTop="@dimen/y32"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_marginLeft="@dimen/x34"
+            android:layout_marginTop="@dimen/y48"
+            android:layout_marginRight="@dimen/x24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="孕妇服务"
+                android:id="@+id/tv_serve"
+                android:textSize="13.5sp"
+                android:textColor="@color/userblack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textColor="@color/textblack9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="@dimen/x65"
+                android:layout_toEndOf="@+id/tv_serve"
+                android:layout_toRightOf="@+id/tv_serve"
+                android:text="剩余8次" />
+
+            <TextView
+                android:id="@+id/tv_yuyue_one"
+                android:background="@drawable/yuan_green"
+                android:layout_alignParentRight="true"
+                android:text="预约"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:layout_width="@dimen/x100"
+                android:layout_height="@dimen/x48" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginLeft="@dimen/x34"
+            android:layout_marginTop="@dimen/y48"
+            android:layout_marginRight="@dimen/x24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="孕妇服务"
+                android:id="@+id/tv_serve_a"
+                android:textSize="13.5sp"
+                android:textColor="@color/userblack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textColor="@color/textblack9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="@dimen/x65"
+                android:layout_toEndOf="@+id/tv_serve_a"
+                android:layout_toRightOf="@+id/tv_serve_a"
+                android:text="剩余8次" />
+
+            <TextView
+                android:id="@+id/tv_yuyue_two"
+                android:background="@drawable/yuan_green"
+                android:layout_alignParentRight="true"
+                android:text="预约"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:layout_width="@dimen/x100"
+                android:layout_height="@dimen/x48" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginLeft="@dimen/x34"
+            android:layout_marginTop="@dimen/y48"
+            android:layout_marginRight="@dimen/x24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="孕妇服务"
+                android:id="@+id/tv_serve_b"
+                android:textSize="13.5sp"
+                android:textColor="@color/userblack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textColor="@color/textblack9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="@dimen/x65"
+                android:layout_toEndOf="@+id/tv_serve_b"
+                android:layout_toRightOf="@+id/tv_serve_b"
+                android:text="剩余8次" />
+
+            <TextView
+                android:id="@+id/tv_yuyue_three"
+                android:background="@drawable/yuan_green"
+                android:layout_alignParentRight="true"
+                android:text="预约"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:layout_width="@dimen/x100"
+                android:layout_height="@dimen/x48" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

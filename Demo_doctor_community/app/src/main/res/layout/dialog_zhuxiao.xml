@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="@dimen/x489"
+        android:layout_height="@dimen/y344"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x29"
+                android:text="确定注销"
+                android:textSize="13.5sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/y52"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/but_ok"
+                android:layout_width="@dimen/x144"
+                android:layout_height="@dimen/y60"
+                android:background="@drawable/yuan_blue_a"
+                android:text="@string/confirm"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/bt_quxiao"
+                android:layout_width="@dimen/x144"
+                android:layout_height="@dimen/y60"
+                android:layout_marginLeft="@dimen/x27"
+                android:background="@drawable/yuan_gray_a"
+                android:text="@string/cancel"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

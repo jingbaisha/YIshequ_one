@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_add_a"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@id/title_fragment_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <LinearLayout
+        android:layout_below="@id/title_fragment_content"
+        android:layout_marginLeft="@dimen/x22"
+        android:layout_marginRight="@dimen/x22"
+        android:layout_marginTop="@dimen/y66"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rcy_items"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <Button
+        android:text="基本信息"
+        android:id="@+id/but_jibenxinxi"
+        android:textColor="@color/white"
+        android:layout_below="@id/title_fragment_content"
+        android:layout_marginTop="@dimen/y29"
+        android:background="@drawable/yuan_blue"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/y70" />
+    <Button
+        android:text="编辑"
+        android:id="@+id/but_bianji"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/x70"
+        android:layout_below="@+id/but_jibenxinxi"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/y29"
+        android:background="@drawable/yuan_blue_a"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/y60" />
+
+</RelativeLayout>

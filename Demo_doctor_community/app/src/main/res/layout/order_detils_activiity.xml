@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_add_a"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@id/title_fragment_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+    <RelativeLayout
+        android:layout_marginLeft="@dimen/x20"
+        android:layout_marginRight="@dimen/x20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="状态"
+            android:textColor="@color/userblack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="订单号:25225522"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <View
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/x26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="所选服务"
+                    android:textSize="10.5sp"
+                    android:layout_marginLeft="@dimen/x20"
+                    android:layout_width="@dimen/x90"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:text="上门看护"
+                    android:textSize="10.5sp"
+                    android:textColor="@color/userblack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="@dimen/x26"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="所选服务"
+                    android:textSize="10.5sp"
+                    android:layout_marginLeft="@dimen/x20"
+                    android:layout_width="@dimen/x90"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:text="上门看护"
+                    android:textSize="10.5sp"
+                    android:textColor="@color/userblack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/x26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="所选服务"
+                    android:textSize="10.5sp"
+                    android:layout_marginLeft="@dimen/x20"
+                    android:layout_width="@dimen/x90"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:text="上门看护"
+                    android:textSize="10.5sp"
+                    android:textColor="@color/userblack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/x26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="所选服务"
+                    android:textSize="10.5sp"
+                    android:layout_marginLeft="@dimen/x20"
+                    android:layout_width="@dimen/x90"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:text="上门看护"
+                    android:textSize="10.5sp"
+                    android:textColor="@color/userblack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="@dimen/x84"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.fanwang.demo_doctor_community.custom.XCRoundImageView
+                android:src="@drawable/aa"
+                android:layout_width="@dimen/x185"
+                android:layout_height="@dimen/y185" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+        android:background="@color/white"
+        android:layout_marginTop="@dimen/y20"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+</LinearLayout>

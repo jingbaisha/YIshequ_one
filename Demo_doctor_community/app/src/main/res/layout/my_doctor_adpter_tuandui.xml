@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="@dimen/x143"
+            android:layout_height="@dimen/y114"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/x4">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/x24"
+                android:background="@mipmap/ic_launcher" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y155">
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/y31"
+                android:orientation="vertical"
+                android:layout_marginLeft="@dimen/x26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="王大队长"
+                        android:textColor="@color/userblack"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:text="队长"
+                        android:id="@+id/tv_duizhang"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:layout_marginLeft="@dimen/x26"
+                        android:background="@drawable/yuan_blue"
+                        android:layout_width="@dimen/x79"
+                        android:layout_height="@dimen/y33" />
+                </LinearLayout>
+                <TextView
+                    android:layout_marginTop="@dimen/x14"
+                    android:text="呼吸内科主任医师"
+                    android:textSize="10.5sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/butSend_massge"
+                android:background="@drawable/yuan_blue_a"
+                android:text="消息"
+                android:textSize="11.5sp"
+                android:visibility="gone"
+                android:textColor="@color/white"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/x24"
+                android:layout_centerVertical="true"
+                android:layout_width="@dimen/x158"
+                android:layout_height="@dimen/y57" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginRight="@dimen/x20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="国家呼吸疾病临床医学研究中心主任，中国医师协会呼吸医师分会会长，首都医科大学呼吸病学系主任。国际肺血管病研究院(PVRI)西太区副主席，世界卫生组织烟草或健康合作中心主任，Clinical Respiratory Journal 主编，Chinese Medical Journal主编。中华医学杂志、中华结核和呼吸杂志副主编等"
+            android:textSize="9.5sp"
+            android:layout_marginLeft="@dimen/x26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

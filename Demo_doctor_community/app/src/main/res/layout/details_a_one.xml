@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:background="@mipmap/ic_launcher"
+        android:layout_width="@dimen/x135"
+        android:layout_height="@dimen/y133" />
+    <TextView
+        android:id="@+id/tv_details_a"
+        android:layout_gravity="center"
+        android:layout_marginRight="@dimen/x51"
+        android:layout_marginLeft="@dimen/x38"
+        android:text="www断水口道具卡就打卡拉近距离肯德基卡拉是经典款了"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

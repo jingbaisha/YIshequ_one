@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="9dp"
+    android:background="@color/white"
+    android:layout_height="@dimen/y130">
+
+    <ImageView
+        android:background="@mipmap/ic_launcher"
+        android:layout_width="@dimen/x140"
+        android:layout_height="@dimen/y90" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/y28"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="近年来我国就医人数也呈现不断增长的态势某些女性朋友们患了妇科疾病宁愿"
+            android:textSize="12.5sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+            <TextView
+                android:text="2018-01-08"
+                android:textSize="10.5sp"
+                android:id="@+id/tv_data"
+                android:textColor="@color/huise_add"
+                android:layout_marginRight="@dimen/x23"
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ratingbar="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_add_a"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/title_fragment_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <ScrollView
+        android:fillViewport="true"
+        android:overScrollMode= "never"
+        android:fadingEdge="none"
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!--第一大组块-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="@dimen/x22"
+                android:orientation="horizontal">
+                <!--图片-->
+
+                    <com.fanwang.demo_doctor_community.custom.XCRoundImageView
+                        android:src="@drawable/aa"
+                        android:layout_width="@dimen/y140"
+                        android:layout_height="@dimen/y142" />
+
+                <!--第二部分-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/x16"
+                    android:layout_marginTop="@dimen/y20"
+                    android:orientation="vertical">
+
+                    <!--one部分-->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="周倩"
+                                android:textColor="@color/userblack"
+                                android:textSize="17.3sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/x10"
+                                android:text="护士"
+                                android:textColor="@color/userblack"
+                                android:textSize="11.5sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/y60"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="@dimen/x24"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:text="服务价格:"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:textSize="13sp"
+                                android:layout_marginLeft="@dimen/x24" />
+
+                            <TextView
+                                android:textSize="13sp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="@dimen/x2"
+                                android:text="200元" />
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/y28">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="评分:"
+                            android:textSize="14.5sp" />
+
+                        <com.fanwang.demo_doctor_community.custom.StarBar
+                            android:id="@+id/star_doctor"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/x10"
+                            android:layout_marginRight="@dimen/x26"
+                            android:layout_marginTop="@dimen/y10"
+                            ratingbar:starDistance="5dp"
+                            ratingbar:starEmpty="@drawable/aa_109"
+                            ratingbar:starFill="@drawable/aa_110"
+                            ratingbar:starSize="15dp" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/white" />
+
+            <!--第二大组块-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="提供服务:"
+                    android:textSize="14.5sp"
+                    android:textColor="@color/textblack9" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rlv_details"
+                    android:layout_marginLeft="@dimen/x47"
+                    android:layout_marginRight="@dimen/x26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rcy_serve_a"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_marginRight="@dimen/x20"
+                android:layout_marginLeft="@dimen/x20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/y57"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button_xiadan"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="@dimen/y60"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/y20"
+                    android:background="@drawable/yuan_green_b"
+                    android:text="下单"
+                    android:textColor="@color/blue_add"
+                    android:textSize="12.5sp" />
+
+                <Button
+                    android:id="@+id/button_dai"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="@dimen/y60"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/x28"
+                    android:layout_marginRight="@dimen/y20"
+                    android:background="@drawable/yuan_green_b"
+                    android:text="代家人下单"
+                    android:textColor="@color/blue_add"
+                    android:textSize="12.5sp" />
+
+                <Button
+                    android:id="@+id/linear_tv_message"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="@dimen/y60"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/x28"
+                    android:layout_marginRight="@dimen/y20"
+                    android:background="@drawable/yuan_green_b"
+                    android:text="留言"
+                    android:textColor="@color/blue_add"
+                    android:textSize="12.5sp" />
+            </LinearLayout>
+
+            <View
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x22"
+                android:layout_marginTop="@dimen/y32"
+                android:text="基本信息" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y46" />
+
+            <include layout="@layout/details_fragment_a" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/y64"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14.5sp"
+                    android:layout_marginLeft="@dimen/x22"
+                    android:text="个人简历" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x22"
+                    android:layout_marginRight="@dimen/x18"
+                    android:layout_marginTop="@dimen/y57"
+                    android:text="围剿窘境子哦及奥家居科技嗯看自己的快乐就健康垃圾卡可垃圾啊看离开了和我去哦五黑五黑嗯ui"
+                    android:textColor="@color/textblack9" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/y82"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x22"
+                    android:text="评论"
+                    android:textColor="@color/userblack"
+                    android:textSize="14.5sp" />
+
+                <View
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"/>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/lv_details"
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

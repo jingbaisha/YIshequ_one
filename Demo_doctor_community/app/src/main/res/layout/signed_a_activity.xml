@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tl="http://schemas.android.com/apk/res-auto"
+    xmlns:ratingbar="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_above="@+id/login_qianyue"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@id/title_fragment_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y240"
+                android:background="@color/gray_add_a">
+
+            </LinearLayout>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="@dimen/x529"
+                android:layout_height="@dimen/y246"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="@dimen/y44"
+                android:background="@drawable/yuan_white_a"
+                android:orientation="vertical"
+                app:cardCornerRadius="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/y50"
+                        android:gravity="center"
+                        android:text="复兴社区团队"
+                        android:textSize="14.5sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="嘻嘻"
+                        android:textSize="11.5sp" />
+
+                    <RelativeLayout
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <com.fanwang.demo_doctor_community.custom.StarBar
+                            android:id="@+id/star_doctor"
+                            android:layout_marginTop="@dimen/y10"
+                            android:layout_marginRight="@dimen/x26"
+                            android:layout_alignParentRight="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/x10"
+                            ratingbar:starDistance="5dp"
+                            ratingbar:starEmpty="@drawable/aa_109"
+                            ratingbar:starFill="@drawable/aa_110"
+                            ratingbar:starSize="12dp" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/y20"
+                        android:gravity="center"
+                        android:text="签约15169"
+                        android:textSize="11.5sp" />
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/gray_add_a"
+            android:orientation="vertical">
+
+            <com.flyco.tablayout.SlidingTabLayout
+                android:id="@+id/stl_tab_signed"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y80"
+                android:background="@color/white"
+                android:padding="10dp"
+                tl:tl_indicator_color="@color/blue_add"
+                tl:tl_indicator_width_equal_title="true"
+                tl:tl_tab_space_equal="true"
+                tl:tl_textSelectColor="@color/blue_add"
+                tl:tl_textUnselectColor="@color/userblack" />
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/stl_tab_vp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/login_qianyue"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="15dp"
+        android:background="@drawable/yuan_green_a"
+        android:gravity="center"
+        android:text="@string/signed"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+</RelativeLayout>

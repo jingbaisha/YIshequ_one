@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ratingbar="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gray_add_a"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <com.fanwang.demo_doctor_community.custom.XCRoundImageView
+            android:layout_width="@dimen/x102"
+            android:layout_height="@dimen/y102"
+            android:src="@drawable/aa" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/x10"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_name_commet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="超越"
+                    android:textSize="10.5sp" />
+
+                <com.fanwang.demo_doctor_community.custom.StarBar
+                    android:id="@+id/star_doctor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x10"
+                    android:layout_marginRight="@dimen/x26"
+                    ratingbar:starDistance="5dp"
+                    ratingbar:starEmpty="@drawable/aa_109"
+                    ratingbar:starFill="@drawable/aa_110"
+                    ratingbar:starSize="12dp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="我开打老卡大家看看领导金克拉金克拉"
+                android:textSize="10.5sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

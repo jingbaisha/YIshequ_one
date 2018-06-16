@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ratingbar="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@id/title_fragment_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="@dimen/x22"
+                    android:orientation="horizontal">
+                    <!--图片-->
+
+                    <com.fanwang.demo_doctor_community.custom.XCRoundImageView
+                        android:src="@drawable/aa"
+                        android:layout_width="@dimen/y140"
+                        android:layout_height="@dimen/y142" />
+
+                    <!--第二部分-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/x16"
+                        android:layout_marginTop="@dimen/y20"
+                        android:orientation="vertical">
+
+                        <!--one部分-->
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="周倩"
+                                    android:textColor="@color/userblack"
+                                    android:textSize="17.3sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="@dimen/x10"
+                                    android:text="护士"
+                                    android:textColor="@color/userblack"
+                                    android:textSize="11.5sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/y60"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginRight="@dimen/x24"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:text="服务价格:"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:textSize="13sp"
+                                    android:layout_marginLeft="@dimen/x24" />
+
+                                <TextView
+                                    android:textSize="13sp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="@dimen/x2"
+                                    android:text="200元" />
+                            </LinearLayout>
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/y28">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="评分:"
+                                android:textSize="14.5sp" />
+
+                            <com.fanwang.demo_doctor_community.custom.StarBar
+                                android:id="@+id/star_doctor"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="@dimen/x10"
+                                android:layout_marginRight="@dimen/x26"
+                                android:layout_marginTop="@dimen/y10"
+                                ratingbar:starDistance="5dp"
+                                ratingbar:starEmpty="@drawable/aa_109"
+                                ratingbar:starFill="@drawable/aa_110"
+                                ratingbar:starSize="15dp" />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="@dimen/x23"
+                    android:layout_marginRight="@dimen/x23"
+                    android:background="@color/huise_add_a" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x54"
+                    android:layout_marginRight="@dimen/x65"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/y34"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="所选服务:  " />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="上门看护" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/y25"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="所选时间:  " />
+
+                        <TextView
+                            android:textColor="@color/add_red_a"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="12:00-18:00" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/y25"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="服务对象:  " />
+
+                        <LinearLayout
+                            android:id="@+id/linear_genghuan"
+                            android:layout_width="@dimen/x103"
+                            android:layout_height="@dimen/y48"
+                            android:background="@drawable/yuan_green"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="更换"
+                                android:textColor="@color/white" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="备注:"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/y346"
+                            android:layout_marginLeft="@dimen/x24"
+                            android:layout_marginRight="@dimen/x24"
+                            android:layout_marginTop="@dimen/y27"
+                            android:background="@drawable/yuan_white"
+                            android:gravity="top" />
+
+                    </LinearLayout>
+                    <TextView
+                        android:text="限制100字"
+                        android:textSize="10.5sp"
+                        android:gravity="right"
+                        android:textColor="@color/red"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <LinearLayout
+                        android:id="@+id/linear_baoxian"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/y46"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="保险事宜:  " />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/wd_05" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="@dimen/x23"
+                    android:layout_marginRight="@dimen/x23"
+                    android:layout_marginTop="@dimen/y32"
+                    android:background="@color/huise_add_a" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/login_zhifu"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="25dp"
+                android:background="@drawable/yuan_green_a"
+                android:gravity="center"
+                android:text="@string/payment"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

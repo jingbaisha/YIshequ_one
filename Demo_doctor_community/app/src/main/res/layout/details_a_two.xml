@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="@dimen/y67"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="剩余服务时间段"
+        android:textSize="14.5sp" />
+
+    <com.fanwang.demo_doctor_community.custom.MyGridview
+        android:id="@+id/gv_details_a_two"
+        android:layout_marginLeft="@dimen/x71"
+        android:layout_marginRight="@dimen/x71"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/y56"
+        android:verticalSpacing="@dimen/y40"
+        android:numColumns="3" />
+
+</LinearLayout>

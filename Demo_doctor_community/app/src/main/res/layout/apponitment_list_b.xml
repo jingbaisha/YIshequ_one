@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:padding="15dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.fanwang.demo_doctor_community.custom.XCRoundImageView
+            android:layout_width="@dimen/y140"
+            android:layout_height="@dimen/y140"
+            android:src="@drawable/aa" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/x40"
+                android:gravity="center"
+                android:text="吴恩达"
+                android:textColor="@color/userblack"
+                android:textSize="17.5sp" />
+
+            <TextView
+                android:id="@+id/tv_ren"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/x40"
+                android:layout_marginTop="@dimen/x20"
+                android:gravity="center"
+                android:text="吴恩达"
+                android:textColor="@color/red"
+                android:textSize="10.5sp" />
+
+            <TextView
+                android:id="@+id/tv_ren_a"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/x40"
+                android:layout_marginTop="@dimen/x20"
+                android:gravity="center"
+                android:text="吴恩达"
+                android:textColor="@color/red"
+                android:textSize="10.5sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/but_massege"
+            android:layout_width="@dimen/x118"
+            android:layout_height="@dimen/x58"
+            android:background="@drawable/yuan_blue_a"
+            android:text="消息"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/but_items_data"
+            android:layout_width="@dimen/x118"
+            android:layout_height="@dimen/x58"
+            android:layout_marginTop="@dimen/y20"
+            android:background="@drawable/yuan_blue_a"
+            android:text="详情"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</RelativeLayout>
